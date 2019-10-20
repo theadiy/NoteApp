@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="headerLinearView" type="id"></item>
+    <item name="noteTitleTextView" type="id"></item>
+    <item name="noteRecyclerView" type="id"></item>
+    <item name="addNoteButton" type="id"></item>
+    <item name="addNoteHeaderTextView" type="id"></item>
+    <item name="titleTextView" type="id"></item>
+    <item name="titleEditText" type="id"></item>
+    <item name="descriptionEditText" type="id"></item>
+    <item name="addnoteButton" type="id"></item>
+    <item name="deleteNoteButton" type="id"></item>
+    <item name="updateNoteHeaderTextView" type="id"></item>
+    <item name="updateNoteTitleEditText" type="id"></item>
+    <item name="updateNoteDescriptionEditText" type="id"></item>
+    <item name="updateNoteButton" type="id"></item>
+    <item name="passwordEditText" type="id"></item>
+    <item name="usernameEditText" type="id"></item>
+    <item name="loginButton" type="id"></item>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/addNoteHeaderTextView"
+        android:text="Add Note"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/addNoteHeaderTextView"
+        android:paddingBottom="200dp"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:layout_below="@id/addNoteHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@id/titleEditText"
+            android:hint="Enter Title"
+
+
+            />
+        <EditText
+            android:layout_below="@id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@id/descriptionEditText"
+            android:hint="Enter Description"
+
+            />
+        <Button
+            android:layout_margin="40dp"
+            android:layout_below="@id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@id/addnoteButton"
+            android:layout_centerVertical="true"
+            android:text="save"
+
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
